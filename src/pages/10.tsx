@@ -347,17 +347,17 @@ export default function Abc() {
             <div className="main-descrition-5-5">
               <div className="main-des-title-6-7">
                 <b>
-                Americans Over 65 Can Now Qualify For The $900 Food Allowance Card in 2024!
+                ¡Los Americanos Mayores De 65 Años Ahora Pueden Calificar Para La Tarjeta Flex De $3300 En 2024!
                 </b>
               </div>
               {/* <img className='topic-img-larger' src = {Headline} alt = "head"/> */}
               <img className="topic-img-middle-z" src={Head_bg} alt="head" />
               <div  style={{marginTop:'14px'}}className="main-des-5">
-              Americans over 65 years old can claim the 2024 Food Allowance Card that gives them up to $900. Americans can use the funds to fully cover their Food, Medicines, etc. at Walmart and thousands of other participating stores!
+              Los americanos mayores de 65 años pueden reclamar la tarjeta Flex 2024 que les ofrece hasta $3300. Los americanos pueden usar los fondos para cubrir completamente sus alimentos, medicinas, etc. en Walmart y miles de otras tiendas participantes.
 
               </div>
               <div className="main-des-5"  style={{marginTop:'-5px'}}>
-              If you have not yet claimed your monthly allowance then answer the questions below and once approved <b>you will have your $900 Food Allowance mailed to you within a few days ready for use!</b>
+              Si aún no has reclamado tu asignación mensual, responde las preguntas a continuación y una vez aprobado, recibirás tu tarjeta Flex de $3300 por correo en unos días lista para usar.
               </div>
               {/* <div className='main-des-5' style = {{marginTop:"1rem"}}><b>Simplemente responda las siguientes preguntas:</b></div> */}
             </div>

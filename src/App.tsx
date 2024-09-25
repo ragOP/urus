@@ -46,22 +46,22 @@ function App() {
       <div className="App">
         <Routes>
        
-         <Route path = "/engmedssd" element = {<Late/>} />
+         {/* <Route path = "/engmedssd" element = {<Late/>} />
          <Route path = "/sbbeng" element = {<Ss/>} />
          <Route path = "/awneng" element = {<Ss2/>} />
          <Route path = "/engmedsf" element = {<Unique2/>} />
-         <Route path = "/engmedsf2" element = {<Unique3/>} />
+         <Route path = "/engmedsf2" element = {<Unique3/>} /> */}
 
-          <Route path = "/engmed900" element = {<VeryNew />} />
-          <Route path = "/engmed-tsf" element = {<Tsf/>} />
+          <Route path = "/engspan1" element = {<VeryNew />} />
+          {/* <Route path = "/engmed-tsf" element = {<Tsf/>} /> */}
 {/*          njxd */}
-<Route path = "/engmed900nb" element = {<Midnight />} />
+{/* <Route path = "/engmed900nb" element = {<Midnight />} />
           <Route path = "/engmed3300" element = {<VeryNew1 />} />
           <Route path = "/engmedpin" element = {<Sed />} />
           <Route path = "/engmedquo" element = {<Sed1 />} />
           <Route path = "/" element = {<VeryNew2 />} />
           <Route path="/terms-and-conditions" element={<Terms />} />
-          <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="/privacy-policy" element={<Privacy />} /> */}
 {/*           <Route path = "/engmedgdn" element = {<Party />} />
           <Route path = "/ip" element = {<Ip />} />
           <Route path = "/engaca1" element = {<First_EN />} />
@@ -86,7 +86,7 @@ function App() {
           <Route path = "/engmed28if" element = {<Client />} /> */}
           {/* <Route path = "/a" element = {<S />} /> */}
 
-          <Route path = "/view" element = {<Visits />} />
+          {/* <Route path = "/view" element = {<Visits />} /> */}
           <Route path = "/*" element = {<NotFound />} />
         </Routes>
       </div>
