@@ -196,26 +196,26 @@ export default function Abc() {
     });
   };
 
-  const [quiz, setQuiz] = useState("Are you over the age of 64?  ");
+  const [quiz, setQuiz] = useState("1. ¿Tienes más de 64 años?  ");
   const [step, setStep] = useState("process");
   const [min, setMin] = useState(3);
   const [second, setSecond] = useState<any>(0);
-  const [yes,setYes]=useState("YES, I'M 65 OR OLDER")
+  const [yes,setYes]=useState("SÍ, TENGO 65 AÑOS O MÁS")
   const [no,setNo]=useState("NO, I'M 64 OR YOUNGER")
   
 
   const stepProcess = () => {
-    if (step === "Reviewing Your Answers...") {
+    if (step === "Revisando tus respuestas...") {
       setTimeout(() => {
-        setStep("Matching With Best Options...");
+        setStep("Emparejando con las mejores opciones...");
       }, 1500);
     }
-    if (step === "Matching With Best Options...") {
+    if (step === "Emparejando con las mejores opciones...") {
       setTimeout(() => {
-        setStep("Confirming Eligibility...");
+        setStep("Confirmando elegibilidad...");
       }, 1500);
     }
-    if (step === "Confirming Eligibility...") {
+    if (step === "Confirmando elegibilidad...") {
       setTimeout(() => {
         setStep("completed");
 
@@ -267,12 +267,12 @@ export default function Abc() {
 
   const handleQuizP = () => {
     topScroll("btn");
-    if (quiz === "Are you over the age of 64?  ") {
-      setYes("Yes")
+    if (quiz === "1. ¿Tienes más de 64 años?  ") {
+      setYes("Sí")
       setNo("No")
-      setQuiz("2. Do you live in the United States?");
+      setQuiz("2. ¿Vives en los Estados Unidos?");
     } else {
-      setStep("Reviewing Your Answers...");
+      setStep("Revisando tus respuestas...");
      
       topScroll("top");
     }
@@ -302,10 +302,10 @@ export default function Abc() {
 
   const handleQuizN = () => {
     topScroll("btn");
-    if (quiz === "Are you over the age of 60?  ") {
-      setYes("Yes")
+    if (quiz === "1. ¿Tienes más de 64 años? ") {
+      setYes("Sí")
       setNo("No")
-      setQuiz("2. Do you live in the United States?");
+      setQuiz("2. ¿Vives en los Estados Unidos?");
     } else {
       setStep("Reviewing Your Answers...");
     
@@ -337,7 +337,6 @@ export default function Abc() {
 
   return (
     <div>
-     <ToastContainer />
       <div style={{marginBottom:'4px'}} className="top-sticky-blue-test2" id="top">
       Senior's Allowance Program 2024
       </div>
@@ -382,17 +381,18 @@ export default function Abc() {
         </div>
       ) : (
         <div className="checking">
-          <div className="congrats">Congratulations, You Qualify!</div>
+          <div className="congrats">¡Felicidades, Calificas!          </div>
           <div className="top-description-5">
-            Make A <b>Quick Call</b> To Claim Your Food Allowance!
+          ¡Haz Una Llamada Rápida Para Reclamar Tu Asignación De Alimentos!
           </div>
-          <div className="spots-count">Spots remaining: 4</div>
-          <div className="tap-direction">👇 TAP BELOW TO CALL 👇</div>
+          <div className="spots-count">Cupos restantes: 4</div>
+          <div className="tap-direction">👇 TOCA ABAJO PARA LLAMAR 👇
+          </div>
           <a href="tel:+18666570134">             <div className="call-btn" onClick={handleCall}>            CALL (866) 657-0134         </div>           </a>
-          <div className="sub-title">We Have Reserved Your Spot</div>
+          <div className="sub-title">Hemos Reservado Tu Lugar          </div>
           <div className="sub-description">
-            Due to high call volume, your official agent is waiting for only{" "}
-            <b>3 minutes</b>, then your spot will not be reserved.
+           
+Debido al alto volumen de llamadas, tu agente oficial te esperará solo 3 minutos, después de eso tu lugar no estará reservado.
           </div>
           <div className="timer">
             <div className="timer-cell">{min}</div>
@@ -412,16 +412,7 @@ export default function Abc() {
         </div>
         {/* <p>{zipCode} </p> */}
       </div>
-      <ToastContainer
-        position="bottom-right"
-        autoClose={5000}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-      />
+      
     </div>
   );
 }
