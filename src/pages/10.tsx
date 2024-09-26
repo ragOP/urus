@@ -302,12 +302,12 @@ export default function Abc() {
 
   const handleQuizN = () => {
     topScroll("btn");
-    if (quiz === "Are you over the age of 60?  ") {
-      setYes("Yes")
+    if (quiz === "1. ¿Tienes más de 64 años? ") {
+      setYes("Sí")
       setNo("No")
-      setQuiz("2. Do you live in the United States?");
+      setQuiz("2. ¿Vives en los Estados Unidos?");
     } else {
-      setStep("Reviewing Your Answers...");
+      setStep("Revisando tus respuestas...");
     
       topScroll("top");
     }
