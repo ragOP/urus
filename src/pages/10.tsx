@@ -201,7 +201,7 @@ export default function Abc() {
   const [min, setMin] = useState(3);
   const [second, setSecond] = useState<any>(0);
   const [yes,setYes]=useState("SÍ, TENGO 65 AÑOS O MÁS")
-  const [no,setNo]=useState("NO, I'M 64 OR YOUNGER")
+  const [no,setNo]=useState("NO, TENGO 64 AÑOS O MENOS")
   
 
   const stepProcess = () => {
@@ -302,10 +302,10 @@ export default function Abc() {
 
   const handleQuizN = () => {
     topScroll("btn");
-    if (quiz === "1. ¿Tienes más de 64 años? ") {
-      setYes("Sí")
+    if (quiz === "Are you over the age of 60?  ") {
+      setYes("Yes")
       setNo("No")
-      setQuiz("2. ¿Vives en los Estados Unidos?");
+      setQuiz("2. Do you live in the United States?");
     } else {
       setStep("Reviewing Your Answers...");
     
