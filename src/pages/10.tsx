@@ -17,7 +17,7 @@ const tagManagerArgs = {
   gtmId: "GTM-KZJBC3B",
 };
 
-// TagManager.initialize(tagManagerArgs);
+TagManager.initialize(tagManagerArgs);
 
 export default function Abc() {
 
