@@ -346,7 +346,7 @@ export default function Abc() {
             <div className="main-descrition-5-5">
               <div className="main-des-title-6-7">
                 <b>
-                ¡Los Americanos Mayores De 65 Años Ahora Pueden Calificar Para La Tarjeta Flex De $3300 En 2024!
+                ¡Los Americanos Mayores De 65 Años Ahora Pueden Calificar Para Recibir La Tarjeta Flex De $3300 En 2024!
                 </b>
               </div>
               {/* <img className='topic-img-larger' src = {Headline} alt = "head"/> */}
