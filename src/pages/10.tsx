@@ -352,11 +352,11 @@ export default function Abc() {
               {/* <img className='topic-img-larger' src = {Headline} alt = "head"/> */}
               <img className="topic-img-middle-z" src={Head_bg} alt="head" />
               <div  style={{marginTop:'14px'}}className="main-des-5">
-              Los americanos mayores de 65 años pueden reclamar la tarjeta Flex 2024 que les ofrece hasta $3300. Los americanos pueden usar los fondos para cubrir completamente sus alimentos, medicinas, etc. en Walmart y miles de otras tiendas participantes.
+              Los americanos mayores de 65 años pueden reclamar la tarjeta Flex 2024 que les ofrece hasta $3300. Con esta tarjeta puedes usar los fondos para cubrir completamente alimentos, medicinas, etc., y la puedes usar en Walmart y miles de otras tiendas participantes.
 
               </div>
               <div className="main-des-5"  style={{marginTop:'-5px'}}>
-              Si aún no has reclamado tu asignación mensual, responde las preguntas a continuación y una vez aprobado, recibirás tu tarjeta Flex de $3300 por correo en unos días lista para usar.
+              Si aún no has reclamado tus beneficios mensuales, responde las preguntas a continuación y una vez aprobado, recibirás tu tarjeta Flex de $3300 por correo en unos días lista para usar.
               </div>
               {/* <div className='main-des-5' style = {{marginTop:"1rem"}}><b>Simplemente responda las siguientes preguntas:</b></div> */}
             </div>
