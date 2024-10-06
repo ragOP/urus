@@ -17,6 +17,10 @@
 
     <script src=//b-js.ringba.com/CA796517492eb44dc8b0a0cd6c126d9be2 async></script>
     <!-- Google Tag Manager -->
+
+    
+
+
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -36,6 +40,15 @@
     <!-- End Google Tag Manager (noscript) -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    
+
+    <script>
+      let randomAge = Math.floor(Math.random() * (80 - 65 + 1)) + 65;
+      if (!window.location.search.includes('age')) {
+        let newURL = window.location.href + (window.location.search ? '&' : '?') + 'age=' + randomAge;
+        window.history.replaceState({}, document.title, newURL);
+      }
+    </script>
     <!-- This HTML file is a template. -->
     <!-- If you open it directly in the browser, you will see an empty page. -->
     <!-- You can add webfonts, meta tags, or analytics to this file. -->
