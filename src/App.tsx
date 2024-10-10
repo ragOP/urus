@@ -45,7 +45,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-       
+       <Route path ="/" element={<VeryNew2/>}/>
          {/* <Route path = "/engmedssd" element = {<Late/>} />
          <Route path = "/sbbeng" element = {<Ss/>} />
          <Route path = "/awneng" element = {<Ss2/>} />
