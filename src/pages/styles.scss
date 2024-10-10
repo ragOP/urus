@@ -56,7 +56,11 @@ a{
     }
   }
   .top-sticky-blue-test2 {
-    padding: 0.75rem 16rem;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+     height: 3em;
+     width: auto;
     background-color: rgb(30 58 138);
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
@@ -66,8 +70,11 @@ a{
 }
 @media (max-width: 768px) {
   .top-sticky-blue-test2 {
+    display: flex;
+        align-items: center;
+        justify-content: center;
     text-align: left; /* Center-align the text */
-    padding: 1.25rem 1rem; /* Adjust padding for smaller screens */
+    padding: 0.25rem 1rem; /* Adjust padding for smaller screens */
   }
 }
   
