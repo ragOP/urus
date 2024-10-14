@@ -447,7 +447,7 @@ export default function Fifth_SP() {
         
         </div>
 
-<p>G2 Licensed Agent : Jessica Johanna Rodriguez</p>
+<p>G2 Licensed Agent : Gregory K. Teipel</p>
         {/* <p>{zipCode} </p> */}
       </div>
       {/* <ToastContainer
