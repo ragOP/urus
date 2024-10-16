@@ -59,9 +59,9 @@ function App() {
           <Route path = "/engmed3300" element = {<VeryNew1 />} />
           <Route path = "/engmedpin" element = {<Sed />} />
           <Route path = "/engmedquo" element = {<Sed1 />} />
-          <Route path = "/" element = {<VeryNew2 />} />
+          <Route path = "/" element = {<VeryNew2 />} /> */}
           <Route path="/terms-and-conditions" element={<Terms />} />
-          <Route path="/privacy-policy" element={<Privacy />} /> */}
+          <Route path="/privacy-policy" element={<Privacy />} />
 {/*           <Route path = "/engmedgdn" element = {<Party />} />
           <Route path = "/ip" element = {<Ip />} />
           <Route path = "/engaca1" element = {<First_EN />} />

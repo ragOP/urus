@@ -401,15 +401,32 @@ Debido al alto volumen de llamadas, tu agente oficial te esperará solo 3 minuto
           </div>
         </div>
       )}
-      <div className="footer2">
-      <div className="terms2">
-          <Link to="/terms-and-conditions">Terms & Conditions</Link> | 
-          <Link to="/privacy-policy">Privacy Policy</Link>
+        <div className="footer2">
+      <p>We represent Medicare Advantage HMO, PPO and PFFS organizations and stand-alone PDP prescription drug plans that are contracted with Medicare. Enrollment depends on the plan’s contract renewal."
+				</p>
+				<p>Not all plans offer all of these benefits. Benefits may vary by carrier and location. Limitations and exclusions may apply.
+				</p>
+				<p>Enrollment in Medicare/Medicare Advantage may be limited to certain times of the year unless you qualify for a Special Enrollment Period
+
+				</p>
+				<p>seniorsbenefits2024.org is not connected with or endorsed by the US government or Federal Medicare program. This website is a solicitation for insurance and Medicare Advantage, Part D or Medicare supplement insurance comparison services. Medicare supplement insurance is available to those age 65 or older enrolled in Medicare Parts A and B, and in some states to those under age 65 eligible to Medicare due to disability or end stage renal disease.
+				</p>
+				<p>We do not offer every plan available in your area. Currently we represent [insert number of organizations] organizations which offer [insert number of plans] products in your area. Please contact Medicare.gov, 1–800–MEDICARE, or your local State Health Insurance Program (SHIP) to get information on all of your options.</p>
+        <div className="terms2">
+
+        <Link to="/terms-and-conditions">Terms & Conditions</Link> | 
+        <Link to="/privacy-policy">Privacy Policy</Link>
         </div>
-        {/* <div className="terms2">Terms & Conditions | Privacy Policy</div> */}
+        <div>
+        
+        <hr/>
+        </div>
         <div className="copyright">
-          Copyright © 2024 - All right reserved Daily America Savings.
+          
+        
         </div>
+
+<p>G2 Licensed Agent : Gregory K. Teipelz</p>
         {/* <p>{zipCode} </p> */}
       </div>
       
