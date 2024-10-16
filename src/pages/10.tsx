@@ -388,7 +388,7 @@ export default function Abc() {
           <div className="spots-count">Cupos restantes: 4</div>
           <div className="tap-direction">👇 TOCA ABAJO PARA LLAMAR 👇
           </div>
-          <a href="tel:+18666570134">             <div className="call-btn" onClick={handleCall}>            CALL (866) 657-0134         </div>           </a>
+          <a href="tel:+18666761076">             <div className="call-btn" onClick={handleCall}>            CALL (866) 676 1076        </div>           </a>
           <div className="sub-title">Hemos Reservado Tu Lugar          </div>
           <div className="sub-description">
            
